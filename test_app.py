@@ -8,5 +8,5 @@ class TestApp(unittest.TestCase):
         self.assertEqual(greet("World"), "Hello, World!")
 
 
-if name == "__main__":
+if _ _name_ _ == "_ _main_ _":
     unittest.main()
