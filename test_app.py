@@ -1,4 +1,12 @@
+import unittest
 from app import greet
 
-def test_greet():
-    assert greet() == "Hello from Jenkins CI!"
+
+class TestApp(unittest.TestCase):
+
+    def test_greet(self):
+        self.assertEqual(greet("World"), "Hello, World!")
+
+
+if name == "__main__":
+    unittest.main()
