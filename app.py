@@ -1,5 +1,5 @@
 def greet():
     return "Hello from Jenkins CI!"
 
-if name == "__main__":
+if __name__ == "__main__":
     print(greet())
